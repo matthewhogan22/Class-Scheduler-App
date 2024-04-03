@@ -9,6 +9,6 @@ For To-Do items, you can also add, edit, and delete, with the added features of 
 
 To see example screens, see "Courses Example.png", "Assignments Example.png", "Exams Example.png", and "To-Do Example.png"
 ![alt text](https://github.com/matthewhogan22/Class-Scheduler-App/blob/main/Courses%20Example.png?raw=true)
-![alt text](http://url/to/img.png)
+![alt text]([http://url/to/img.png](https://github.com/matthewhogan22/Class-Scheduler-App/blob/main/Assignments%20Example.png?raw=true))
 ![alt text](http://url/to/img.png)
 ![alt text](http://url/to/img.png)
