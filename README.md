@@ -9,7 +9,7 @@ For To-Do items, you can also add, edit, and delete, with the added features of 
 
 See examples of the app screens below!
 
-![alt text](https://github.com/matthewhogan22/Class-Scheduler-App/blob/main/Courses%20Example.png?raw=true | width=100 height=200)
+![alt text](https://github.com/matthewhogan22/Class-Scheduler-App/blob/main/Courses%20Example.png | width=100 height=200)
 ![alt text](https://github.com/matthewhogan22/Class-Scheduler-App/blob/main/Assignments%20Example.png?raw=true)
 ![alt text](https://github.com/matthewhogan22/Class-Scheduler-App/blob/main/Exams%20Example.png?raw=true)
 ![alt text](https://github.com/matthewhogan22/Class-Scheduler-App/blob/main/To-Do%20Example.png?raw=true)
