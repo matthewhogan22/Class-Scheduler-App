@@ -8,7 +8,7 @@ This app allows you to create Course, Assignment, and Exam items, edit them with
 For To-Do items, you can also add, edit, and delete, with the added features of allowing a sort by name or date, as well as an ability to check items off the list and sort by completion status
 
 To see example screens, see "Courses Example.png", "Assignments Example.png", "Exams Example.png", and "To-Do Example.png"
-![alt text]((https://github.com/matthewhogan22/Class-Scheduler-App/blob/main/Courses%20Example.png?raw=true))
+![alt text](https://github.com/matthewhogan22/Class-Scheduler-App/blob/main/Courses%20Example.png?raw=true)
 ![alt text](http://url/to/img.png)
 ![alt text](http://url/to/img.png)
 ![alt text](http://url/to/img.png)
