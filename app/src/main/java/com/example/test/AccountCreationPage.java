@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -40,8 +41,18 @@ public class AccountCreationPage extends AppCompatActivity {
                 String username = user.getText().toString();
                 String password = pass.getText().toString();
                 String confPassword = confPass.getText().toString();
+                if (validLogin(username, password, confPassword)) {
+
+                } else {
+                    Toast.makeText(AccountCreationPage.this, "Login information invalid",
+                            Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
+    }
+
+    private boolean validLogin(String u,String p1, String p2) {
+        return (p1.equals(p2) && u.length() > 0 && u.contains("@") && u.contains(".com"));
     }
 }
