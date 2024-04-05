@@ -37,6 +37,9 @@
             android:name=".LoginPage"
             android:exported="true" />
         <activity
+            android:name=".AccountCreationPage"
+            android:exported="true" />
+        <activity
             android:name=".SeeCoursesActivity"
             android:exported="true"
             android:label="@string/app_name"

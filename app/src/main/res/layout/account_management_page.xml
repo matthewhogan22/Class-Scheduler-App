@@ -10,26 +10,40 @@
         android:id="@+id/login_page"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF"
+        android:background="#c2e7ff"
         android:clipToOutline="true">
 
         <TextView
             android:id="@+id/log_in"
             android:layout_width="100dp"
             android:layout_height="50dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
+            android:layout_marginStart="157dp"
             android:layout_marginTop="29dp"
             android:layout_marginEnd="154dp"
             android:layout_marginBottom="652dp"
             android:gravity="center_horizontal|top"
             android:text="Log In"
             android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/don_t_have_"
+            android:layout_width="273dp"
+            android:layout_height="19dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="291dp"
+            android:backgroundTint="@color/white"
+            android:gravity="top"
+            android:text="Don't have an account? Create one" />
     </RelativeLayout>
 
     <EditText
-        android:id="@+id/input_email"
+        android:id="@+id/login_email"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
@@ -41,7 +55,7 @@
         android:hint="Email" />
 
     <EditText
-        android:id="@+id/input_password"
+        android:id="@+id/login_password"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
@@ -62,22 +76,10 @@
         android:layout_marginLeft="21dp"
         android:layout_marginRight="21dp"
         android:layout_marginBottom="338dp"
+        android:backgroundTint="#0d19ba"
         android:gravity="center_horizontal|top"
         android:text="Log In"
         android:textSize="25sp" />
 
-
-
-    <TextView
-        android:id="@+id/don_t_have_"
-        android:layout_width="273dp"
-        android:layout_height="19dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="252dp"
-        android:text="Don't have an account? Create one"
-        android:gravity="top"
-        android:backgroundTint="@color/white"
-        />
 
 </RelativeLayout>
