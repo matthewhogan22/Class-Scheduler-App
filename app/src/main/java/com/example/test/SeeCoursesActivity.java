@@ -18,6 +18,7 @@ public class SeeCoursesActivity extends AppCompatActivity implements RecyclerVie
     private static ArrayList<Event> masterList = new ArrayList<>();
     private RecyclerView recyclerView;
     private static CourseRecyclerViewAdapter adapter;
+    private Button accountButton;
 
     //Plan to scan through the .txt and put data into
 
@@ -28,9 +29,18 @@ public class SeeCoursesActivity extends AppCompatActivity implements RecyclerVie
 
         recyclerView = findViewById(R.id.coursesRecyclerView);
         adapter = new CourseRecyclerViewAdapter(this, masterList, this);
+        accountButton = findViewById(R.id.addAccountButton);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerView.setAdapter(adapter);
+
+        accountButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SeeCoursesActivity.this, LoginPage.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
@@ -49,6 +59,11 @@ public class SeeCoursesActivity extends AppCompatActivity implements RecyclerVie
     public void goToToDo(View view) {
         startActivity(new Intent(SeeCoursesActivity.this, ToDoListActivity.class));
     }
+
+//    public void goToAccount(View view) {
+//        Intent intent = new Intent(SeeCoursesActivity.this, LoginPage.class);
+//        startActivity(intent);
+//    }
 
     @Override
     public void whenClicked(int pos) {
