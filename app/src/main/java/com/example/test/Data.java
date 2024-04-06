@@ -2,6 +2,8 @@ package com.example.test;
 
 import android.widget.Toast;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +12,8 @@ public class Data {
     public static ArrayList<Task> tasks = new ArrayList<>();
     public static ArrayList<Exam> exams = new ArrayList<>();
     public static int pos = 0;
+
+    public static FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     public static void deleteToDoAtPos(int pos) {
         Task toBeRemoved = tasks.get(pos);
